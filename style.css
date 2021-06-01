@@ -171,6 +171,36 @@ header #menu-bar {
     width: 100%;
 }
 
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .image {
+    flex: 1 1 40rem;
+    height: 50rem;
+    background: url(./img/about-frame-img.png), url(./img/about-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about .content {
+    flex: 1 1 40rem;
+    padding: 2rem;
+}
+
+.about .content h3 {
+    font-size: 4rem;
+    color: #333;
+}
+
+.about .content p {
+    font-size: 1.6rem;
+    color: #666;
+    padding: 1rem 0;
+}
 
 
 
