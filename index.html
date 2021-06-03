@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Landing Page</title>
 
+    <!-- aos css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
     <!-- google fonts cdn link -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
@@ -45,13 +49,13 @@
 
 <section class="home" id="home">
 
-    <div class="content">
+    <div class="content" data-aos="fade-right">
         <h3>We believe good food offer great smile</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo aliquam earum alias eveniet accusamus voluptatibus eos libero aliquid nemo mollitia.</p>
         <a href="#"><button class="btn">Get Started</button></a>
     </div>
 
-    <div class="image">
+    <div class="image" data-aos="fade-up">
         <img src="./img/home-img.png" alt="">
     </div>
 
@@ -63,8 +67,9 @@
 
 <section class="about" id="about">
 
-<div class="image"></div>
-    <div class="content">
+<div class="image" data-aos="fade-right"></div>
+
+    <div class="content" data-aos="fade-left">
         <h3>a word about us</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque alias magnam at corrupti sit nemo. Dolo rum fugit esse, eligendi fugiat sed veritatis. Quia, itaque quod? Ex harum exercitationem ducimus expedita!</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Conseq uuntur doloribus porro inventore ullam ipsam, ea minima alias odio quasi eum.</p>
@@ -81,18 +86,18 @@
 
     <h1 class="heading"> our delicous <span>menu</span></h1>
 
-    <ul class="list">
+    <ul class="list" data-aos="fade-down">
         <li class="btn" data-src="./img/menu1.jpg">breakfast</li>
         <li class="btn active" data-src="./img/menu2.jpg"">lunch</li>
         <li class="btn" data-src="./img/menu3.jpg"">dinner</li>
         <li class="btn" data-src="./img/menu4.jpg"">dessert</li>
     </ul>
 
-    <div class="row">
+    <div class="row" data-aos="fade-right">
 
     <div class="image"><img src="./img/menu2.jpg" id="menu-img" alt=""></div>
 
-    <div class="content">
+    <div class="content" data-aos="fade-left">
         <div class="info">
             <h3> <span>01.</span> we serve the best food in the country</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, aperiam!</p>
@@ -124,7 +129,7 @@
 
     <div class="box-container">
 
-    <div class="box">
+    <div class="box" data-aos="fade-right">
         <img src="./img/product1.jpg" alt="">
         <h3>delicious food</h3>
         <div class="stars">
@@ -138,7 +143,7 @@
         <a href="#"><button class="btn">add to cart</button></a>
     </div>
 
-    <div class="box">
+    <div class="box" data-aos="fade-left">
         <img src="./img/product2.jpg" alt="">
         <h3>delicious food</h3>
         <div class="stars">
@@ -152,7 +157,7 @@
         <a href="#"><button class="btn">add to cart</button></a>
     </div>
 
-    <div class="box">
+    <div class="box" data-aos="fade-right">
         <img src="./img/product3.jpg" alt="">
         <h3>delicious food</h3>
         <div class="stars">
@@ -166,7 +171,7 @@
         <a href="#"><button class="btn">add to cart</button></a>
     </div>
 
-    <div class="box">
+    <div class="box" data-aos="fade-left">
         <img src="./img/product4.jpg" alt="">
         <h3>delicious food</h3>
         <div class="stars">
@@ -188,46 +193,46 @@
 
 <!-- gallery section starts -->
 
-<section class="gallery" id="gallery">
+<!-- <section class="gallery" id="gallery">
 
     
     <h1 class="heading"> our food <span>gallery</span> </h1>
 
     <div class="box-container">
 
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="./img/img1.jpg" alt="">
             <h3>delicious food</h3>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="./img/img2.jpg" alt="">
             <h3>delicious food</h3>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="./img/img3.jpg" alt="">
             <h3>delicious food</h3>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="./img/img4.jpg" alt="">
             <h3>delicious food</h3>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="./img/img5.jpg" alt="">
             <h3>delicious food</h3>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="fade-up">
             <img src="./img/img6.jpg" alt="">
             <h3>delicious food</h3>
         </div>
 
     </div>
 
-</section>
+</section> -->
 
 <!-- gallery section ends -->
 
@@ -239,7 +244,7 @@
 
     <div class="row">
 
-        <form action="">
+        <form action="" data-aos="fade-right">
         <input type="text" placeholder="your name" class="box">
         <input type="email" placeholder="your email" class="box">
         <input type="password" placeholder="your password" class="box">
@@ -248,7 +253,7 @@
         <input type="submit" value="order now" class="btn">
     </form>
 
-    <div class="image">
+    <div class="image" data-aos="fade-left">
         <img src="./img/form-img.jpg" alt="">
     </div>
 
@@ -258,6 +263,54 @@
 
 <!-- order section ends -->
 
+<!-- footer section starts -->
+
+<div class="footer">
+
+<div class="box-container">
+
+<div class="box">
+    <h3>contact info</h3>
+    <p> <i class="fas fa-map-marker-alt"></i> Amsterdam, 1102 AB The Netherlands </p>
+    <p> <i class="fas fa-envelope"></i> restaurant@gmail.com </p>
+    <p> <i class="fas fa-phone"></i> +31(0)20-1234567 </p>
+    <p> <i class="fas fa-phone"></i> +31(0)6-12345678 </p>
+</div>
+
+<div class="box">
+    <h3>branch location</h3>
+    <a href="#">amsterdam</a>
+    <a href="#">london</a>
+    <a href="#">paris</a>
+    <a href="#">milan</a>
+    <a href="#">dubai</a>
+</div>
+
+<div class="box">
+    <h3>quick links</h3>
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#menu">menu</a>
+    <a href="#popular">popular</a>
+    <a href="#gallery">gallery</a>
+    <a href="#order">order</a>
+</div>
+
+<div class="box">
+    <h3>follow us</h3>
+    <a href="">facebook</a>
+    <a href="">instagram</a>
+    <a href="">twitter</a>
+    <a href="">linkedin</a>
+</div>
+
+</div>
+
+<h1 class="credit"> create by <a href="#">Raoul Shah</a> all rights reserved</h1>
+
+</div>
+
+<!-- footer section ends -->
 
 
 
@@ -270,12 +323,25 @@
 
 
 
+<!-- aos js cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     
 <!-- jquery cdn link -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!-- custom js file link -->
 <script src="./app.js"></script>
+
+<!-- initializing aos -->
+
+<script>
+
+AOS.init({
+    delay:400,
+    duration:1000
+})
+
+</script>
 
 </body>
 </html>
